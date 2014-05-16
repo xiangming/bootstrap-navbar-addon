@@ -1,0 +1,43 @@
+/*add a new layout navbar-fixed-left for navbar*/
+.navbar-fixed-left {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+@media (min-width: 768px) {
+  .navbar-fixed-left {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    margin-right: 200px;
+  }
+  .navbar-fixed-left .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-fixed-left .container-fluid .navbar-brand {
+    margin-left: 0;
+  }
+  .navbar-fixed-left .navbar-collapse {
+    padding: 0;
+    max-height: none;
+    padding-top: 50px;
+  }
+  .navbar-fixed-left .navbar-nav {
+    width: 100%;
+  }
+  .navbar-fixed-left ul {
+    float: none;
+  }
+  .navbar-fixed-left li {
+    float: none;
+    display: block;
+  }
+  .navbar-fixed-left li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .navbar-fixed-left .dropdown-menu {
+    top: 0;
+    left: 200px;
+  }
+}

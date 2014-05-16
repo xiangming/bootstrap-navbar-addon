@@ -1,0 +1,12 @@
+{
+	"name": "Project-Template",
+	"version": "0.0.1",
+	"author": "Jason Xiang",
+	"homepage": "http://jasonxiang.com",
+	"devDependencies": {
+		"grunt": "~0.4",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-less": "*"
+	}
+}
