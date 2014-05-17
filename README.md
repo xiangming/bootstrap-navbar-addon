@@ -1,39 +1,28 @@
-CKEditor 4
-==========
+Bootstrap navbar extension
+=====
 
-Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.  
-http://ckeditor.com - See LICENSE.md for license information.
+介绍
+-----
+扩展bootstrap 3 的 navbar 样式，使其支持`.navbar-fixed-left`布局。简单实现，不会影响 bootstrap 原有的二级菜单和响应式效果。
 
-CKEditor is a text editor to be used inside web pages. It's not a replacement
-for desktop text editors like Word or OpenOffice, but a component to be used as
-part of web applications and websites.
+演示
+-----
+-http://jasonxiang.com/bootstrap-navbar-extension/
 
-## Documentation
+用法
+-----
 
-The full editor documentation is available online at the following address:
-http://docs.ckeditor.com
+  1. Clone 或下载项目源码。
 
-## Installation
+  2. 找到`less/bootstrap-navbar-extension.less`，然后加入到自己的项目中编译使用。或者找到`css/bootstrap-navbar-extension.css`，直接引用。
 
-Installing CKEditor is an easy task. Just follow these simple steps:
+  3. 现在，你可以在 navbar 标签上使用`.navbar-fixed-left`样式了。
+  ```html
+  <nav class="navbar navbar-inverse navbar-fixed-left">
+  ```
 
- 1. **Download** the latest version from the CKEditor website:
-    http://ckeditor.com. You should have already completed this step, but be
-    sure you have the very latest version.
- 2. **Extract** (decompress) the downloaded file into the root of your website.
-
-**Note:** CKEditor is by default installed in the `ckeditor` folder. You can
-place the files in whichever you want though.
-
-## Checking Your Installation
-
-The editor comes with a few sample pages that can be used to verify that
-installation proceeded properly. Take a look at the `samples` directory.
-
-To test your installation, just call the following page at your website:
-
-	http://<your site>/<CKEditor installation path>/samples/index.html
-
-For example:
-
-	http://www.example.com/ckeditor/samples/index.html
+TODO
+-----
+1. 增加 navbar-static-left 支持；
+2. 完善异常处理；
+3. 提供 bowerjs 方式安装。

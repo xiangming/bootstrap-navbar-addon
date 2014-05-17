@@ -29,7 +29,8 @@ module.exports = function(grunt){
 		less: {
 			development: {
 				files: {
-					'dist/css/app.css': 'less/app.less'
+					'dist/css/app.css': 'less/app.less',
+					'dist/css/bootstrap-navbar-extension.css': 'less/bootstrap-navbar-extension.less'
 				}
 			},
 			production: {
@@ -37,7 +38,8 @@ module.exports = function(grunt){
 					cleancss: true
 				},
 				files: {
-					'dist/css/app.min.css': 'dist/css/app.css'
+					'dist/css/app.min.css': 'dist/css/app.css',
+					'dist/css/bootstrap-navbar-extension.min.css': 'less/bootstrap-navbar-extension.css'
 				}
 			}
 		},
