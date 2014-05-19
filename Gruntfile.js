@@ -39,7 +39,7 @@ module.exports = function(grunt){
 				},
 				files: {
 					'dist/css/app.min.css': 'dist/css/app.css',
-					'dist/css/bootstrap-navbar-extension.min.css': 'less/bootstrap-navbar-extension.css'
+					'dist/css/bootstrap-navbar-extension.min.css': 'dist/css/bootstrap-navbar-extension.css'
 				}
 			}
 		},
