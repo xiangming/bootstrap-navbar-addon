@@ -20,8 +20,7 @@ module.exports = function(grunt){
 					// ],
 					'dist/js/base.min.js': [
 						'assets/jquery/jquery-1.9.1.min.js',
-						'assets/bootstrap/js/bootstrap.min.js',
-						'assets/bootstrap-datepicker/js/bootstrap-datepicker.js'
+						'assets/bootstrap/js/bootstrap.min.js'
 					]
 				}
 			}
@@ -30,7 +29,7 @@ module.exports = function(grunt){
 			development: {
 				files: {
 					'dist/css/app.css': 'less/app.less',
-					'dist/css/bootstrap-navbar-extension.css': 'less/bootstrap-navbar-extension.less'
+					'dist/css/bootstrap-navbar-addon.css': 'less/bootstrap-navbar-addon.less'
 				}
 			},
 			production: {
@@ -39,7 +38,7 @@ module.exports = function(grunt){
 				},
 				files: {
 					'dist/css/app.min.css': 'dist/css/app.css',
-					'dist/css/bootstrap-navbar-extension.min.css': 'dist/css/bootstrap-navbar-extension.css'
+					'dist/css/bootstrap-navbar-addon.min.css': 'dist/css/bootstrap-navbar-addon.css'
 				}
 			}
 		},
@@ -54,8 +53,7 @@ module.exports = function(grunt){
 					// 	'dist/css/app.min.css'
 					// ],
 					'dist/css/base.min.css': [
-						'assets/bootstrap/css/bootstrap.min.css',
-						'assets/bootstrap-datepicker/css/datepicker3.css'
+						'assets/bootstrap/css/bootstrap.min.css'
 					]
 				}
 			}
