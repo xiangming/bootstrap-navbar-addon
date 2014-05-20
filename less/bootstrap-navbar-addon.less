@@ -1,11 +1,12 @@
 /*add a new layout navbar-fixed-left for bootstrap navbar*/
 
-@navbar-fixed-left-width: 200px;
+@navbar-fixed-left-width: 170px;
 
 
 .navbar-fixed-left{
 	margin-bottom: 0;
 	border-radius: 0;
+	border: none;
 
 	@media (min-width: 768px) {
 		position: fixed;
@@ -14,8 +15,7 @@
 		left: 0;
 		width: @navbar-fixed-left-width;
 		height: 100%;
-		margin-right: @navbar-fixed-left-width;
-		border: none;
+		z-index: 999999;
 
 		.container-fluid{
 			padding-right: 0;

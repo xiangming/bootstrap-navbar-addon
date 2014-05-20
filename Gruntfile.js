@@ -57,12 +57,23 @@ module.exports = function(grunt){
 					]
 				}
 			}
+		},
+		watch: {
+			less: {
+				files: ['less/*.less'],
+				tasks: ['less']
+			},
+			scripts: {
+				files: ['js/*.js'],
+				tasks: ['uglify']
+			}
 		}
 	});
 	//加载插件
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 	//制定任务
 	grunt.registerTask('default',['uglify', 'less', 'cssmin']);
 }
