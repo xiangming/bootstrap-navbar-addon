@@ -44,7 +44,8 @@ module.exports = function(grunt){
 		},
 		cssmin: {
 			options: {
-				banner: '<%= banner %>'
+				banner: '<%= banner %>',
+				keepSpecialComments: '0'
 			},
 			app: {
 				files: {
