@@ -1,13 +1,14 @@
 {
-	"name": "Project-Template",
+	"name": "Bootstrap-Navbar-Addon",
 	"version": "0.0.1",
-	"author": "Jason Xiang",
-	"homepage": "http://jasonxiang.com",
+	"author": "xiangming",
+	"homepage": "http:/jasonxiang.com/bootstrap-navbar-addon/",
 	"devDependencies": {
-		"grunt": "~0.4",
-		"grunt-contrib-cssmin": "*",
-		"grunt-contrib-uglify": "*",
-		"grunt-contrib-less": "*",
-		"grunt-contrib-watch": "*"
+		"grunt": "~0.4.2",
+		"grunt-contrib-cssmin": "~0.7.0",
+		"grunt-contrib-uglify": "~0.3.0",
+		"grunt-contrib-less": "~0.11.0",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-csscomb": "~2.0.1"
 	}
 }
