@@ -17,12 +17,15 @@
 
   2. 找到`less/bootstrap-navbar-addon.less`，然后加入到自己的项目中编译使用。或者找到`css/bootstrap-navbar-addon.css`，直接引用。
 
-  3. 现在，你可以在 navbar 标签上使用`.navbar-fixed-left`样式了。(请不要使用`container-fluid`，应该像下面这样。)
+  3. 现在，你可以在 navbar 标签上使用`.navbar-fixed-left`样式了。
   ```html
   <nav class="navbar navbar-inverse navbar-fixed-left">
     <div class="navbar-header">
+    ...
     </div>
     <div class="collapse navbar-collapse">
+    ...
+    </div>
   </div>
   ```
 
